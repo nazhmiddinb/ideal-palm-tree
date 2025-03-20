@@ -5,12 +5,18 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -35,6 +41,7 @@ nav ul li a {
 }
 
 main {
+  flex: 1;
   margin: 20px 0;
 }
 
